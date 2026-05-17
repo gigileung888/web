@@ -71,58 +71,13 @@ a {
   text-transform: uppercase;
 }
 
-.brand-mark {
-  position: relative;
+.brand-logo {
   display: block;
-  width: 70px;
-  height: 48px;
+  width: 72px;
+  height: 72px;
   flex: 0 0 auto;
-}
-
-.sun {
-  position: absolute;
-  left: 15px;
-  top: 10px;
-  width: 40px;
-  height: 40px;
-  border: 8px solid var(--gold);
-  border-bottom-color: transparent;
-  border-radius: 50%;
-}
-
-.ray {
-  position: absolute;
-  width: 8px;
-  height: 18px;
-  background: var(--gold);
-  border-radius: 999px;
-}
-
-.ray-1 {
-  left: 31px;
-  top: 0;
-}
-
-.ray-2 {
-  left: 4px;
-  top: 16px;
-  transform: rotate(-55deg);
-}
-
-.ray-3 {
-  right: 4px;
-  top: 16px;
-  transform: rotate(55deg);
-}
-
-.ridge {
-  position: absolute;
-  left: 2px;
-  right: 0;
-  bottom: 9px;
-  height: 18px;
-  background: linear-gradient(105deg, #7bc51f, var(--green));
-  clip-path: polygon(0 90%, 22% 42%, 48% 18%, 72% 36%, 100% 88%, 73% 62%, 48% 45%, 23% 58%);
+  object-fit: contain;
+  border-radius: 8px;
 }
 
 nav {
@@ -403,9 +358,9 @@ h2 {
     gap: 8px;
   }
 
-  .brand-mark {
-    width: 58px;
-    height: 42px;
+  .brand-logo {
+    width: 60px;
+    height: 60px;
   }
 
   .hero {
