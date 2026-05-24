@@ -3,124 +3,194 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Golden Holiday Travel Agency Limited | 新西兰私人订制旅游</title>
-  <meta name="description" content="Golden Holiday Travel Agency Limited 提供新西兰私人订制旅游服务，专注南岛深度行程、家庭度假、蜜月旅拍和高端小团体验。">
+  <title data-i18n="meta.title">Golden Holiday Travel Agency Limited | 新西兰私人订制旅游</title>
+  <meta name="description" content="Golden Holiday Travel Agency Limited 提供新西兰私人订制旅游服务，专注南岛深度行程、家庭度假、蜜月旅拍和高端小团体验。" data-i18n-attr="content:meta.description">
   <link rel="preconnect" href="https://images.unsplash.com">
   <link rel="stylesheet" href="styles.css">
+  <script src="content.js" defer></script>
+  <script src="script.js" defer></script>
 </head>
 <body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Golden Holiday 首页">
-      <img class="brand-logo" src="assets/golden-holiday-logo.png" alt="Golden Holiday 黄金假日 logo">
+    <a class="brand" href="#top" aria-label="Golden Holiday 首页" data-i18n-attr="aria-label:brand.aria">
+      <img class="brand-logo" src="assets/golden-holiday-logo.png" alt="Golden Holiday 黄金假日 logo" data-media="logo" data-i18n-attr="alt:brand.logoAlt">
       <span>
-        <strong>黄金假日</strong>
-        <small>Golden Holiday</small>
+        <strong data-i18n="brand.nameZh">黄金假日</strong>
+        <small data-i18n="brand.nameEn">Golden Holiday</small>
       </span>
     </a>
-    <nav aria-label="主要导航">
-      <a href="#routes">南岛亮点</a>
-      <a href="#services">定制服务</a>
-      <a href="#contact">联系我们</a>
-    </nav>
+    <div class="header-actions">
+      <nav aria-label="主要导航" data-i18n-attr="aria-label:nav.aria">
+        <a href="#top" data-i18n="nav.home">首页</a>
+        <a href="#routes" data-i18n="nav.routes">南岛亮点</a>
+        <a href="#services" data-i18n="nav.services">定制服务</a>
+        <a href="#contact" data-i18n="nav.contact">联系我们</a>
+      </nav>
+      <button class="language-toggle" type="button" data-lang-toggle aria-label="Switch to English" data-i18n-attr="aria-label:language.toggleAria">
+        <span data-lang-current>中文</span>
+        <span aria-hidden="true">/</span>
+        <span data-lang-next>EN</span>
+      </button>
+    </div>
   </header>
 
   <main id="top">
     <section class="hero">
-      <div class="hero-media" role="img" aria-label="新西兰南岛湖泊、雪山和公路风景"></div>
+      <div class="hero-media" role="img" aria-label="新西兰南岛湖泊、雪山和公路风景" data-i18n-attr="aria-label:hero.mediaLabel"></div>
+      <div class="hero-orbit" aria-hidden="true"></div>
       <div class="hero-copy">
-        <p class="eyebrow">New Zealand Private Tours</p>
-        <h1>Golden Holiday Travel Agency Limited</h1>
-        <p class="lead">新西兰私人订制旅游专家，专注南岛雪山、湖泊、峡湾、冰川与小众风景路线。</p>
+        <p class="eyebrow" data-i18n="hero.eyebrow">New Zealand Private Tours</p>
+        <h1 data-i18n="hero.title">Golden Holiday Travel Agency Limited</h1>
+        <p class="lead" data-i18n="hero.lead">新西兰私人订制旅游专家，专注南岛雪山、湖泊、峡湾、冰川与小众风景路线。</p>
         <div class="hero-actions">
-          <a class="button primary" href="#contact">咨询定制行程</a>
-          <a class="button ghost" href="#routes">查看南岛亮点</a>
+          <a class="button primary" href="#contact" data-i18n="hero.primaryCta">咨询定制行程</a>
+          <a class="button ghost" href="#routes" data-i18n="hero.secondaryCta">查看南岛亮点</a>
+        </div>
+        <div class="hero-stats" aria-label="服务亮点数据" data-i18n-attr="aria-label:hero.statsLabel">
+          <div><strong data-i18n="hero.stats.0.value">1:1</strong><span data-i18n="hero.stats.0.label">专属行程顾问</span></div>
+          <div><strong data-i18n="hero.stats.1.value">4季</strong><span data-i18n="hero.stats.1.label">南岛深度玩法</span></div>
+          <div><strong data-i18n="hero.stats.2.value">VIP</strong><span data-i18n="hero.stats.2.label">高端小团体验</span></div>
+        </div>
+      </div>
+      <aside class="glass-card hero-card" aria-label="推荐路线卡片" data-i18n-attr="aria-label:hero.cardAria">
+        <span class="card-kicker" data-i18n="hero.cardKicker">Signature Journey</span>
+        <h2 data-i18n="hero.cardTitle">Queenstown · Milford · Tekapo</h2>
+        <p data-i18n="hero.cardText">雪山湖泊、峡湾游船、暗夜星空与私享包车，一次串联南岛经典与小众秘境。</p>
+      </aside>
+    </section>
+
+    <section class="intro" aria-label="公司简介" data-i18n-attr="aria-label:intro.aria">
+      <div>
+        <p class="section-label" data-i18n="intro.label">About Us</p>
+        <h2 data-i18n="intro.title">为每一组客人设计专属的新西兰假期</h2>
+      </div>
+      <div class="intro-copy">
+        <p data-i18n="intro.text">我们提供一对一行程规划、私人包车、中文沟通、住宿与体验推荐。无论是家庭亲子、蜜月旅拍、朋友小团，还是商务接待，我们都会根据旅行天数、预算、节奏和兴趣定制路线。</p>
+        <div class="trust-strip" aria-label="服务承诺" data-i18n-attr="aria-label:intro.trustAria">
+          <span data-i18n="intro.trust.0">中文沟通</span>
+          <span data-i18n="intro.trust.1">弹性节奏</span>
+          <span data-i18n="intro.trust.2">精选住宿</span>
+          <span data-i18n="intro.trust.3">私密小团</span>
         </div>
       </div>
     </section>
 
-    <section class="intro" aria-label="公司简介">
-      <div>
-        <p class="section-label">About Us</p>
-        <h2>为每一组客人设计专属的新西兰假期</h2>
-      </div>
-      <p>我们提供一对一行程规划、私人包车、中文沟通、住宿与体验推荐。无论是家庭亲子、蜜月旅拍、朋友小团，还是商务接待，我们都会根据旅行天数、预算、节奏和兴趣定制路线。</p>
+    <section class="showcase" aria-label="精选旅行体验" data-i18n-attr="aria-label:showcase.aria">
+      <article class="showcase-card large">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=85" alt="湖边度假屋与自然风景" data-media="showcase1" data-i18n-attr="alt:showcase.items.0.alt">
+        <div>
+          <span data-i18n="showcase.items.0.label">Luxury Stay</span>
+          <h3 data-i18n="showcase.items.0.title">湖景酒店与精品 Lodge</h3>
+        </div>
+      </article>
+      <article class="showcase-card">
+        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=85" alt="新西兰雪山风景" data-media="showcase2" data-i18n-attr="alt:showcase.items.1.alt">
+        <div>
+          <span data-i18n="showcase.items.1.label">Alpine View</span>
+          <h3 data-i18n="showcase.items.1.title">雪山轻徒步</h3>
+        </div>
+      </article>
+      <article class="showcase-card">
+        <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=85" alt="旅行公路和远方山景" data-media="showcase3" data-i18n-attr="alt:showcase.items.2.alt">
+        <div>
+          <span data-i18n="showcase.items.2.label">Private Drive</span>
+          <h3 data-i18n="showcase.items.2.title">包车自由停靠</h3>
+        </div>
+      </article>
     </section>
 
     <section id="routes" class="feature-band">
       <div class="section-heading">
-        <p class="section-label">South Island Highlights</p>
-        <h2>新西兰南岛行程亮点</h2>
+        <p class="section-label" data-i18n="routes.label">South Island Highlights</p>
+        <h2 data-i18n="routes.title">新西兰南岛行程亮点</h2>
       </div>
       <div class="route-grid">
         <article class="route-card">
           <span>01</span>
-          <h3>Queenstown 皇后镇</h3>
-          <p>湖景度假、缆车、喷射快艇、酒庄与高空项目，适合作为南岛深度行程核心停留点。</p>
+          <h3 data-i18n="routes.items.0.title">Queenstown 皇后镇</h3>
+          <p data-i18n="routes.items.0.text">湖景度假、缆车、喷射快艇、酒庄与高空项目，适合作为南岛深度行程核心停留点。</p>
+          <a href="#contact" data-i18n="routes.items.0.cta">定制皇后镇路线</a>
         </article>
         <article class="route-card">
           <span>02</span>
-          <h3>Milford Sound 米尔福德峡湾</h3>
-          <p>峡湾游船、瀑布、雨林与高山公路，适合安排一日游或更舒适的过夜路线。</p>
+          <h3 data-i18n="routes.items.1.title">Milford Sound 米尔福德峡湾</h3>
+          <p data-i18n="routes.items.1.text">峡湾游船、瀑布、雨林与高山公路，适合安排一日游或更舒适的过夜路线。</p>
+          <a href="#contact" data-i18n="routes.items.1.cta">安排峡湾体验</a>
         </article>
         <article class="route-card">
           <span>03</span>
-          <h3>Lake Tekapo 蒂卡波湖</h3>
-          <p>星空保护区、湖畔教堂、雪山湖景和温泉体验，是摄影与轻松度假的热门选择。</p>
+          <h3 data-i18n="routes.items.2.title">Lake Tekapo 蒂卡波湖</h3>
+          <p data-i18n="routes.items.2.text">星空保护区、湖畔教堂、雪山湖景和温泉体验，是摄影与轻松度假的热门选择。</p>
+          <a href="#contact" data-i18n="routes.items.2.cta">规划观星假期</a>
         </article>
         <article class="route-card">
           <span>04</span>
-          <h3>Mount Cook 库克山</h3>
-          <p>冰川徒步、胡克谷步道、观景飞行和高山酒店，适合自然风光深度体验。</p>
+          <h3 data-i18n="routes.items.3.title">Mount Cook 库克山</h3>
+          <p data-i18n="routes.items.3.text">冰川徒步、胡克谷步道、观景飞行和高山酒店，适合自然风光深度体验。</p>
+          <a href="#contact" data-i18n="routes.items.3.cta">加入库克山</a>
         </article>
       </div>
     </section>
 
     <section id="services" class="services">
       <div class="section-heading">
-        <p class="section-label">Tailor-Made Service</p>
-        <h2>私人订制服务</h2>
+        <p class="section-label" data-i18n="services.label">Tailor-Made Service</p>
+        <h2 data-i18n="services.title">私人订制服务</h2>
       </div>
       <div class="service-list">
         <div>
-          <h3>专属路线规划</h3>
-          <p>根据航班、天数、季节、兴趣和预算，设计不赶路、体验完整的南岛路线。</p>
+          <span>01</span>
+          <h3 data-i18n="services.items.0.title">专属路线规划</h3>
+          <p data-i18n="services.items.0.text">根据航班、天数、季节、兴趣和预算，设计不赶路、体验完整的南岛路线。</p>
         </div>
         <div>
-          <h3>私人包车与中文服务</h3>
-          <p>适合家庭、长辈、亲子和高端小团，沟通更顺畅，时间安排更灵活。</p>
+          <span>02</span>
+          <h3 data-i18n="services.items.1.title">私人包车与中文服务</h3>
+          <p data-i18n="services.items.1.text">适合家庭、长辈、亲子和高端小团，沟通更顺畅，时间安排更灵活。</p>
         </div>
         <div>
-          <h3>特色体验安排</h3>
-          <p>冰川、峡湾、观星、酒庄、旅拍、农场、直升机与轻徒步，按旅行风格组合。</p>
+          <span>03</span>
+          <h3 data-i18n="services.items.2.title">特色体验安排</h3>
+          <p data-i18n="services.items.2.text">冰川、峡湾、观星、酒庄、旅拍、农场、直升机与轻徒步，按旅行风格组合。</p>
         </div>
       </div>
     </section>
 
-    <section class="process" aria-label="定制流程">
+    <section class="process" aria-label="定制流程" data-i18n-attr="aria-label:process.aria">
       <div class="process-copy">
-        <p class="section-label">How It Works</p>
-        <h2>快速开始你的黄金假日</h2>
+        <p class="section-label" data-i18n="process.label">How It Works</p>
+        <h2 data-i18n="process.title">快速开始你的黄金假日</h2>
       </div>
       <ol>
-        <li><strong>需求沟通</strong><span>确认人数、日期、预算、偏好和必去地点。</span></li>
-        <li><strong>方案设计</strong><span>提供路线、住宿区域、交通方式和体验建议。</span></li>
-        <li><strong>落地执行</strong><span>协助预订并在旅途中保持沟通支持。</span></li>
+        <li><div><strong data-i18n="process.items.0.title">需求沟通</strong><span data-i18n="process.items.0.text">确认人数、日期、预算、偏好和必去地点。</span></div></li>
+        <li><div><strong data-i18n="process.items.1.title">方案设计</strong><span data-i18n="process.items.1.text">提供路线、住宿区域、交通方式和体验建议。</span></div></li>
+        <li><div><strong data-i18n="process.items.2.title">落地执行</strong><span data-i18n="process.items.2.text">协助预订并在旅途中保持沟通支持。</span></div></li>
       </ol>
     </section>
 
     <section id="contact" class="contact">
       <div>
-        <p class="section-label">Contact</p>
-        <h2>告诉我们你的旅行计划</h2>
-        <p>把出行时间、人数、预计天数和想去的地方发给我们，我们会为你设计适合的南岛私人订制路线。</p>
+        <p class="section-label" data-i18n="contact.label">Contact</p>
+        <h2 data-i18n="contact.title">告诉我们你的旅行计划</h2>
+        <p data-i18n="contact.text">把出行时间、人数、预计天数和想去的地方发给我们，我们会为你设计适合的南岛私人订制路线。</p>
       </div>
       <div class="contact-panel">
+        <span class="card-kicker" data-i18n="contact.kicker">Start Planning</span>
         <p><strong>Golden Holiday Travel Agency Limited</strong></p>
         <a href="mailto:info@goldenholiday.co.nz">info@goldenholiday.co.nz</a>
         <a href="tel:+64000000000">+64 00 000 0000</a>
-        <span>New Zealand Private Custom Tours</span>
+        <span data-i18n="contact.tagline">New Zealand Private Custom Tours</span>
+        <a class="button primary contact-button" href="mailto:info@goldenholiday.co.nz?subject=Golden%20Holiday%20私人订制行程咨询" data-i18n="contact.cta" data-i18n-attr="href:contact.mailto">发送行程需求</a>
       </div>
     </section>
   </main>
+
+  <footer class="site-footer">
+    <span data-i18n="footer.copy">© Golden Holiday Travel Agency Limited</span>
+    <a href="#top" data-i18n="footer.top">Back to top ↑</a>
+  </footer>
 </body>
 </html>
