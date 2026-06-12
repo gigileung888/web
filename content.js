@@ -18,6 +18,7 @@ window.GOLDEN_HOLIDAY_CONTENT = {
     nav: {
       aria: '主要导航',
       home: '首页',
+      products: '旅游产品',
       routes: '南岛亮点',
       services: '定制服务',
       contact: '联系我们'
@@ -54,6 +55,25 @@ window.GOLDEN_HOLIDAY_CONTENT = {
         { label: 'Luxury Stay', title: '湖景酒店与精品 Lodge', alt: '湖边度假屋与自然风景' },
         { label: 'Alpine View', title: '雪山轻徒步', alt: '新西兰雪山风景' },
         { label: 'Private Drive', title: '包车自由停靠', alt: '旅行公路和远方山景' }
+      ]
+    },
+    products: {
+      label: 'Travel Products',
+      title: '精选新西兰深度旅游产品',
+      note: '保留原产品行程、费用包含、不含项目、支付方式与取消条款。',
+      items: [
+        {
+          kicker: '8天7晚 · 2人起成行',
+          title: '新西兰南岛深度8天（10-12月初）',
+          text: '基督城、凯库拉海钓、奥马鲁、但尼丁、皇后镇、库克山与蒂卡坡，适合想深度体验南岛风光与特色活动的客人。',
+          cta: '查看完整行程'
+        },
+        {
+          kicker: '10天9晚 · 南北岛联游',
+          title: '新西兰南北岛悠闲玩乐十天深度游（10-12月初）B',
+          text: '南岛经典自然路线结合北岛怀托摩萤火虫洞、爱歌顿农场、毛利文化村、红杉树林与奥克兰城市观光。',
+          cta: '查看完整行程'
+        }
       ]
     },
     routes: {
@@ -118,6 +138,7 @@ window.GOLDEN_HOLIDAY_CONTENT = {
     nav: {
       aria: 'Primary navigation',
       home: 'Home',
+      products: 'Products',
       routes: 'Highlights',
       services: 'Services',
       contact: 'Contact'
@@ -154,6 +175,25 @@ window.GOLDEN_HOLIDAY_CONTENT = {
         { label: 'Luxury Stay', title: 'Lake-view hotels and boutique lodges', alt: 'Lakeside lodge surrounded by nature' },
         { label: 'Alpine View', title: 'Scenic alpine walks', alt: 'Snow-capped mountains in New Zealand' },
         { label: 'Private Drive', title: 'Stop anywhere on your route', alt: 'Open road with distant mountain views' }
+      ]
+    },
+    products: {
+      label: 'Travel Products',
+      title: 'Featured New Zealand journey products',
+      note: 'Original itineraries, inclusions, exclusions, payment terms and cancellation policies are preserved in detail.',
+      items: [
+        {
+          kicker: '8 days 7 nights · From 2 travellers',
+          title: 'South Island In-Depth 8-Day Tour (Oct-early Dec)',
+          text: 'Christchurch, Kaikoura fishing, Oamaru, Dunedin, Queenstown, Mount Cook and Tekapo for travellers who want a deeper South Island route.',
+          cta: 'View full itinerary'
+        },
+        {
+          kicker: '10 days 9 nights · North and South Islands',
+          title: 'Relaxed North & South Island 10-Day Tour (Oct-early Dec) B',
+          text: 'A South Island scenic route plus Waitomo Glowworm Caves, Agrodome, Maori culture, Redwoods and Auckland city highlights in the North Island.',
+          cta: 'View full itinerary'
+        }
       ]
     },
     routes: {
