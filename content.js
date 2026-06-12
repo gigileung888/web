@@ -70,7 +70,7 @@ window.GOLDEN_HOLIDAY_CONTENT = {
         },
         {
           kicker: '10天9晚 · 南北岛联游',
-          title: '新西兰南北岛悠闲玩乐十天深度游（10-12月初）B',
+          title: '新西兰南北岛悠闲玩乐十天深度游',
           text: '南岛经典自然路线结合北岛怀托摩萤火虫洞、爱歌顿农场、毛利文化村、红杉树林与奥克兰城市观光。',
           cta: '查看完整行程'
         }
@@ -190,7 +190,7 @@ window.GOLDEN_HOLIDAY_CONTENT = {
         },
         {
           kicker: '10 days 9 nights · North and South Islands',
-          title: 'Relaxed North & South Island 10-Day Tour (Oct-early Dec) B',
+          title: 'Relaxed North & South Island 10-Day Tour',
           text: 'A South Island scenic route plus Waitomo Glowworm Caves, Agrodome, Maori culture, Redwoods and Auckland city highlights in the North Island.',
           cta: 'View full itinerary'
         }
